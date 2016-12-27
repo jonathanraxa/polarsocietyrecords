@@ -47,11 +47,50 @@
       margin: 0 auto;
       max-width: 1400px; /* A really big width */
     }
+    #questions{
+      color:white;
+    }
+    #about p{
+      color:#383333;
+    }
+    p.contact {
+      font-size: 2em !important;
+    }
+    p.contact#email a {
+      color: rgba(27, 204, 109, 0.8) !important;
+    }
+    p.contact#email:hover a {
+      color: rgba(27, 204, 109, 0.8) !important;
+    }
+    p.contact#email:visited a {
+      color: rgb(133, 171, 60) !important;
+    }
+    #footer h3 {
+      font-size: 2em;
+    }
+    #team img {
+      width: 100%;
+    }
     @media (max-width:767px) {
       .intro h1 {
-        font-size: 7em;
+        font-size: 20vw;
+      }
+      .intro p{
+        font-size:10vw;
+      }
+      p.contact#email a {
+        font-size:5vw !important;
       }
     }
+    @media (min-width:768px) {
+      p.contact#email a {
+        font-size: 2vw;
+      }
+      #about p {
+        font-size: 1.3em;
+      }
+    }
+
 	</style>
 </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
@@ -74,7 +113,7 @@
 						<a class="page-scroll" href="#about">About</a>
 					</li>
 					<li>
-						<a class="page-scroll" href="#restaurant-menu">Featured</a>
+						<a class="page-scroll" href="#restaurant-menu">Music</a>
 					</li>
 					<li>
 						<a class="page-scroll" href="#portfolio">Photos</a>
@@ -83,7 +122,7 @@
 						<a class="page-scroll" href="#team">Artists</a>
 					</li>
 					<li>
-						<a class="page-scroll" href="#call-reservation">Contact</a>
+						<a class="page-scroll" href="#footer">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -96,7 +135,7 @@
 					<div class="row">
 						<div class="intro-text">
 							<h1>Polar Society Records</h1>
-							<p>Communication through Hip Hop</p><a class="btn btn-custom btn-lg page-scroll" href="#about">Check it</a>
+							<p>We ice cold.</p><a class="btn btn-custom btn-lg page-scroll" href="#about">Check it</a>
 						</div>
 					</div>
 				</div>
@@ -111,7 +150,7 @@
 				</div>
 				<div class="col-sm-12 col-md-6">
 					<div class="about-text">
-						<h2>Who we are</h2>
+						<h2>we are polar society</h2>
 						<hr>
 						<p>Polar Society Records aims to grow artists and producers alike through various social media means. Yup, we're new to the game, so all the more to check out and see what we're all about.</p>
 						<h3>Artist On Deck</h3>
@@ -124,7 +163,7 @@
 	<div id="restaurant-menu">
 		<div class="section-title text-center center">
 			<div class="overlay">
-				<h2>Featured</h2>
+				<h2>Music</h2>
 				<hr>
 				<p>Our featured artist(s).</p>
 			</div>
@@ -173,20 +212,20 @@
 					<div class="col-sm-6 col-md-6 col-lg-6 breakfast">
 						<div class="portfolio-item">
 							<div class="hover-bg">
-								<a data-lightbox-gallery="gallery1" href="img/portfolio/01-large.jpg" title="Dish Name">
+								<a data-lightbox-gallery="gallery1" href="img/dav1.jpg" title="Dish Name">
 								<div class="hover-text">
 									<h4>Dish Name</h4>
-								</div><img alt="Project Title" class="img-responsive" src="img/portfolio/01-small.jpg"></a>
+								</div><img alt="Project Title" class="img-responsive" src="img/dav1.jpg"></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-6 dinner">
 						<div class="portfolio-item">
 							<div class="hover-bg">
-								<a data-lightbox-gallery="gallery1" href="img/portfolio/02-large.jpg" title="Dish Name">
+								<a data-lightbox-gallery="gallery1" href="img/dav3.jpg" title="Dish Name">
 								<div class="hover-text">
 									<h4>Dish Name</h4>
-								</div><img alt="Project Title" class="img-responsive" src="img/portfolio/02-small.jpg"></a>
+								</div><img alt="Project Title" class="img-responsive" src="img/dav3.jpg"></a>
 							</div>
 						</div>
 					</div>
@@ -237,11 +276,17 @@
 
 	<div id="footer">
 		<div class="container text-center">
-    <div class="col-md-4">
-      <h3>Are you a producer, artist, public relations, fan?</h3>
+    <div class="col-md-12">
+      <h3 id="questions">Are you a producer, artist, public relations, fan?</h3>
       <div class="contact-item">
-        <p>Then contact us at:</p>
-        <p>polarsocietyrecords@gmail.com</p>
+        <p class="contact">Then contact us at:</p>
+        <p class="contact" id="email">
+          <strong>
+            <u>
+              <a href="mailto:polarsocietyrecords@gmail.com?Subject=IMPORTANT">polarsocietyrecords@gmail.com</a>
+            </u>
+          </strong>
+        </p>
       </div>
     </div>
   </div>
