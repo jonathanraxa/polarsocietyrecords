@@ -28,83 +28,37 @@
     <link href="css/panel.css" rel="stylesheet" type="text/css">
 
 	<style>
-  	img{
-  	 width: 100%;
-  	}
-  	.videoWrapper {
-  	   position: relative;
-  	   padding-bottom: 56.25%; /* 16:9 */
-  	   padding-top: 25px;
-  	   height: 0;
-  	}
-  	.videoWrapper iframe {
-  	   position: absolute;
-  	   top: 0;
-  	   left: 0;
-  	   width: 100%;
-  	   height: 100%;
-  	}
-    .container {
-      margin: 0 auto;
-      max-width: 1400px; /* A really big width */
-    }
-    #questions{
-      color:white;
-    }
-    #about p{
-      color:#383333;
-    }
-    p.contact {
-      font-size: 2em !important;
-    }
-    p.contact#email a {
-      color: rgba(27, 204, 109, 0.8) !important;
-    }
-    p.contact#email:hover a {
-      color: rgba(27, 204, 109, 0.8) !important;
-    }
-    p.contact#email:visited a {
-      color: rgb(133, 171, 60) !important;
-    }
-    #footer h3 {
-      font-size: 2em;
-    }
-    #pricing_title{
-      margin-top:70px;
-    }
-    #price_snippet{
-      color:#383333;
-    }
+	
+  	img{width: 100%;}
+  	.videoWrapper {position: relative;padding-bottom: 56.25%; /* 16:9 */padding-top: 25px;height: 0;}
+  	.videoWrapper iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+    .container {margin: 0 auto;max-width: 1400px; /* A really big width */}
+    #questions{color:white;}
+    #about p{color:#383333;}
+    p.contact {font-size: 2em !important;}
+    p.contact#email a {color: rgba(27, 204, 109, 0.8) !important;}
+    p.contact#email:hover a {color: rgba(27, 204, 109, 0.8) !important;}
+    p.contact#email:visited a {color: rgb(133, 171, 60) !important;}
+    #footer h3 {font-size: 2em;}
+    #pricing_title{margin-top:70px;}
+    #price_snippet{color:#383333;}
+		#customLogo{width: 82px;height: auto;margin-top: -28px;margin-bottom: -25px;}
+
+		/*MOBILE*/
     @media (max-width:767px) {
-      .intro h1 {
-        font-size: 20vw;
-      }
-      .intro p{
-        font-size:10vw;
-      }
-      p.contact#email a {
-        font-size:5vw !important;
-      }
+      .intro h1 {font-size: 20vw;}
+      .intro p{font-size:10vw;}
+      p.contact#email a {font-size:5vw !important;}
     }
+
+		/*DESKTOP*/
     @media (min-width:768px) {
-      p.contact#email a {
-        font-size: 2vw;
-      }
-      #about p {
-        font-size: 1.3em;
-      }
-      .thumbnail .caption p {
-        font-size: 1.3em !important;
-      }
+      p.contact#email a {font-size: 2vw;}
+      #about p {font-size: 1.3em;}
+      .thumbnail .caption p {font-size: 1.3em !important;}
     }
-
-		#customLogoPos{
-			width: 78px;
-			height: auto;
-			margin: -27px 0px 0px 0px;
-		}
-
 	</style>
+
 </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
 	<!-- Navigation
@@ -118,8 +72,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand page-scroll" id="customLogoPos" href="#page-top">
-					<img src="img/logo_with_words_400.png" alt="Polar Society Records Logo" />
+        <a class="navbar-brand page-scroll" href="#page-top">
+					<img id="customLogo" src="img/logo_with_words_400.png" alt="Polar Society Records Logo" />
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
