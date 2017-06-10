@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Polar Society Records</title>
+	<meta content="" name="description">
+	<meta content="" name="author"><!-- Favicons
+    ================================================== -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+	<link href="img/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+	<link href="img/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"><!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"><!-- Stylesheet
+    ================================================== -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/nivo-lightbox/nivo-lightbox.css" rel="stylesheet" type="text/css">
+	<link href="css/nivo-lightbox/default.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/panel.css" rel="stylesheet" type="text/css">
+
+	<style>
+
+  	img{width: 100%;}
+  	.videoWrapper {position: relative;padding-bottom: 56.25%; /* 16:9 */padding-top: 25px;height: 0;}
+  	.videoWrapper iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+    .container {margin: 0 auto;max-width: 1400px; /* A really big width */}
+    #questions{color:white;}
+    #about p{color:#383333;}
+    p.contact {font-size: 2em !important;}
+    p.contact#email a {color: rgba(27, 204, 109, 0.8) !important;}
+    p.contact#email:hover a {color: rgba(27, 204, 109, 0.8) !important;}
+    p.contact#email:visited a {color: rgb(133, 171, 60) !important;}
+    #footer h3 {font-size: 2em;}
+    #pricing_title{margin-top:70px;}
+    #price_snippet{color:#383333;}
+		#customLogo{width: 82px;height: auto;margin-top: -28px;margin-bottom: -25px;}
+
+		/*MOBILE*/
+    @media (max-width:767px) {
+      .intro h1 {font-size: 20vw;}
+      .intro p{font-size:10vw;}
+      p.contact#email a {font-size:5vw !important;}
+    }
+
+		/*DESKTOP*/
+    @media (min-width:768px) {
+      p.contact#email a {font-size: 2vw;}
+      #about p {font-size: 1.3em;}
+      .thumbnail .caption p {font-size: 1.3em !important;}
+    }
+	</style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
+	<!-- Navigation
+    ==========================================-->
+	<nav class="navbar navbar-default navbar-fixed-top" id="menu">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+					<img id="customLogo" src="img/logo_with_words_400.png" alt="Polar Society Records Logo" />
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a class="page-scroll" href="#about">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#music">Music</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#portfolio">Photos</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#team">Artists</a>
+					</li>
+          <li>
+            <a class="page-scroll" href="#pricing">Pricing</a>
+          </li>
+					<li>
+						<a class="page-scroll" href="#footer">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header id="header">
+		<div class="intro">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="intro-text">
+							<h1>Polar Society Records</h1>
+							<p>We ice cold.</p><a class="btn btn-custom btn-lg page-scroll" href="#about">Check it</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- About Section -->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<div class="about-img"><img alt="" class="img-responsive" src="img/dav.jpg"></div>
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<div class="about-text">
+						<h2>we are polar society</h2>
+						<hr>
+						<p>Polar Society Records aims to grow artists and producers alike through various social media means. Yup, we're new to the game, so all the more to check out and see what we're all about.</p>
+						<h3>Artist On Deck</h3>
+						<p>As an up and coming rapper, D-Raxa (pictured on left) uses his lyricism to influence, entertain, and hypnotize this audience. Spitting dope flows has been his passion ever since a young(er) kid.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- Restaurant Menu Section -->
+	<div id="music">
+		<div class="section-title text-center center">
+			<div class="overlay">
+				<h2>Music</h2>
+				<hr>
+				<p>Our <strike>featured</strike> only artist.</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="menu-section">
+						<!-- <h2 class="menu-section-title">Breakfast & Starters</h2> -->
+						<!-- <hr> -->
+						<!-- <div class="menu-item"> -->
+						<!-- <div class="menu-item-name"> Delicious Dish </div> -->
+						<!-- <div class="menu-item-price"> $35 </div> -->
+						<div class="videoWrapper">
+							<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/O5m7lfZdRuw" width="560"></iframe>
+						</div><!-- </div> -->
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="menu-section">
+						<!-- <h2 class="menu-section-title">Main Course</h2> -->
+						<!-- <hr> -->
+						<!-- <div class="menu-item"> -->
+						<!-- <div class="menu-item-name"> Delicious Dish </div> -->
+						<!-- <div class="menu-item-price"> $45 </div> -->
+						<div class="videoWrapper">
+							<!-- Copy & Pasted from YouTube -->
+							<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/okO4hiGrbSA" width="560"></iframe>
+						</div><!-- </div> -->
+					</div>
+          <br />
+				</div>
+
+        <div class="col-sm-12 col-md-12">
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231957784&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        </div>
+        <br />
+        <div class="col-sm-12 col-md-12">
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/222414710&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        </div>
+			</div>
+		</div>
+	</div><!-- Portfolio Section -->
+	<div id="portfolio">
+		<div class="section-title text-center center">
+			<div class="overlay">
+				<h2>Photos</h2>
+				<hr>
+				<p>Keep up with our latest.</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-lg-12"> -->
+					<div class="col-sm-6 col-md-6 col-lg-6 breakfast">
+						<div class="portfolio-item">
+							<div class="hover-bg">
+								<a data-lightbox-gallery="gallery1" href="img/dav1.jpg" title="The PRE mixtape release">
+								<div class="hover-text">
+									<h4>The PRE mixtape release</h4>
+								</div><img alt="Project Title" class="img-responsive" src="img/dav1.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6 dinner">
+						<div class="portfolio-item">
+							<div class="hover-bg">
+								<a data-lightbox-gallery="gallery1" href="img/dav3.jpg" title="From the music video - last laugh">
+								<div class="hover-text">
+									<h4>From the music video - last laugh</h4>
+								</div><img alt="Project Title" class="img-responsive" src="img/dav3.jpg"></a>
+							</div>
+						</div>
+					</div>
+				<!-- </div> -->
+			</div>
+		</div>
+	</div><!-- Team Section -->
+	<div class="text-center" id="team">
+		<div class="overlay">
+			<div class="container">
+				<div class="col-md-10 col-md-offset-1 section-title">
+					<h2>Artists</h2>
+					<hr>
+					<p>Check out our <strong><i>only</i></strong> artist so far! Will <i>you</i> be next?</p>
+				</div>
+				<div id="row">
+					<div class="col-md-4 team">
+						<div class="thumbnail">
+              <a href="https://raxadavid.github.io/davidraxa" target="_blank">
+  							<div class="team-img"><img alt="..." src="img/dav.jpg"></div>
+  							<div class="caption">
+  								<h3>D-Rax</h3>
+  								<p>Check out his mixtape coming out soon!</p>
+  							</div>
+              </a>
+						</div>
+					</div>
+          <div class="col-md-4 team">
+          <div class="thumbnail">
+            <div class="team-img"><img src="img/thisYou.jpg" alt="..."></div>
+            <div class="caption">
+              <h3>You possibly?</h3>
+              <p>Email us at <a href="mailto:polarsocietyrecords@gmail.com?Subject=IMPORTANT"><u>polarsocietyrecords@gmail.com</u></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 team">
+          <div class="thumbnail">
+            <div class="team-img"><img src="img/thisYou.jpg" alt="..."></div>
+            <div class="caption">
+              <h3>You possibly?</h3>
+              <p>Email us at <a href="mailto:polarsocietyrecords@gmail.com?Subject=IMPORTANT"><u>polarsocietyrecords@gmail.com</u></a></p>
+            </div>
+          </div>
+        </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- PRICING -->
+<div id="pricing">
+    <div class="container">
+  	<div class="row">
+      <div class="section-title text-center center" id="pricing_title">
+        <h2>Pricing</h2>
+        <hr>
+        <p id="price_snippet">Let us manage your social media.</p>
+      </div>
+      			<div class="col-sm-12 col-md-4 col-lg-4">
+
+  					<!-- PRICE ITEM -->
+  					<div class="panel price panel-red">
+  						<div class="panel-heading  text-center">
+  						<h3>BASIC</h3>
+  						</div>
+  						<div class="panel-body text-center">
+  							<p class="lead" style="font-size:40px"><strong>$199 / month</strong></p>
+  						</div>
+  						<ul class="list-group list-group-flush text-center">
+  							<li class="list-group-item"><i class="icon-ok text-danger"></i> All Social Media Platforms Managed</li>
+  						</ul>
+  						<div class="panel-footer">
+  							<a class="btn btn-lg btn-block btn-danger" href="mailto:polarsocietyrecords@gmail.com?Subject=BASIC">BUY NOW!</a>
+  						</div>
+  					</div>
+  					<!-- /PRICE ITEM -->
+
+
+  				</div>
+
+  				<div class="col-sm-12 col-md-4 col-lg-4">
+
+  					<!-- PRICE ITEM -->
+  					<div class="panel price panel-blue">
+  						<div class="panel-heading arrow_box text-center">
+  						<h3>AMATEUR</h3>
+  						</div>
+  						<div class="panel-body text-center">
+  							<p class="lead" style="font-size:40px"><strong>$299 / month</strong></p>
+  						</div>
+  						<ul class="list-group list-group-flush text-center">
+  							<li class="list-group-item"><i class="icon-ok text-info"></i> All Social Media Platforms Managed</li>
+  							<li class="list-group-item"><i class="icon-ok text-info"></i> Website Creation and Management</li>
+  						</ul>
+  						<div class="panel-footer">
+  							<a class="btn btn-lg btn-block btn-info" id="pro_version" href="mailto:polarsocietyrecords@gmail.com?Subject=AMATEUR">BUY NOW!</a>
+  						</div>
+  					</div>
+  					<!-- /PRICE ITEM -->
+
+
+  				</div>
+
+  				<div class="col-sm-12 col-md-4 col-lg-4">
+
+  					<!-- PRICE ITEM -->
+  					<div class="panel price panel-green">
+  						<div class="panel-heading arrow_box text-center">
+  						<h3>PROFESSIONAL</h3>
+  						</div>
+  						<div class="panel-body text-center">
+  							<p class="lead" style="font-size:40px"><strong>$999 / month</strong></p>
+  						</div>
+  						<ul class="list-group list-group-flush text-center">
+                <li class="list-group-item"><i class="icon-ok text-info"></i> All Social Media Platforms Managed</li>
+  							<li class="list-group-item"><i class="icon-ok text-info"></i> Website Creation and Management</li>
+                <li class="list-group-item"><i class="icon-ok text-info"></i> SEO management</li>
+  							<!-- <li class="list-group-item"><i class="icon-ok text-info"></i> All Public Relations Management</li> -->
+  						</ul>
+  						<div class="panel-footer">
+  							<a class="btn btn-lg btn-block btn-success" href="mailto:polarsocietyrecords@gmail.com?Subject=PROFESSIONAL">BUY NOW!</a>
+  						</div>
+  					</div>
+  					<!-- /PRICE ITEM -->
+  				</div>
+  			</div>
+  </div>
+</div>
+
+	<div id="footer">
+		<div class="container text-center">
+    <div class="col-md-12">
+      <h3 id="questions">Are you a producer, artist, public relations, fan?</h3>
+      <div class="contact-item">
+        <p class="contact">Then contact us at:</p>
+        <p class="contact" id="email">
+          <strong>
+            <u>
+              <a href="mailto:polarsocietyrecords@gmail.com?Subject=IMPORTANT">polarsocietyrecords@gmail.com</a>
+            </u>
+          </strong>
+        </p>
+      </div>
+    </div>
+  </div>
+		<div class="container-fluid text-center copyrights">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="social">
+					<ul>
+						<!-- <li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li> -->
+						<li>
+							<a href="https://www.twitter.com/polar_society" target="_blank"><i class="fa fa-twitter"></i></a>
+						</li>
+						<!-- <li>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</li> -->
+					</ul>
+				</div>
+				<p>&copy; 2016 Polar Society Records. All rights reserved. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+				<p>Marketed by <u><a href="http://www.servicemarketdigital.com" rel="nofollow">Service Market Digital</a></u></p>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.1.11.1.js" type="text/javascript">
+	</script>
+	<script src="js/bootstrap.js" type="text/javascript">
+	</script>
+	<script src="js/SmoothScroll.js" type="text/javascript">
+	</script>
+	<script src="js/nivo-lightbox.js" type="text/javascript">
+	</script>
+	<script src="js/jquery.isotope.js" type="text/javascript">
+	</script>
+	<script src="js/jqBootstrapValidation.js" type="text/javascript">
+	</script>
+	<script src="js/contact_me.js" type="text/javascript">
+	</script>
+	<script src="js/main.js" type="text/javascript">
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36926373-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
