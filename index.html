@@ -7,10 +7,10 @@
 	<meta content="" name="description">
 	<meta content="" name="author"><!-- Favicons
     ================================================== -->
-	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-	<link href="img/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-	<link href="img/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"><!-- Bootstrap -->
+	<link href="img/logo_plain.png" rel="shortcut icon" type="image/x-icon">
+	<link href="img/logo_plain.png" rel="apple-touch-icon">
+	<link href="img/logo_plain.png" rel="apple-touch-icon" sizes="72x72">
+	<link href="img/logo_plain.png" rel="apple-touch-icon" sizes="114x114"><!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"><!-- Stylesheet
     ================================================== -->
@@ -36,14 +36,20 @@
     #questions{color:white;}
     #about p{color:#383333;}
     p.contact {font-size: 2em !important;}
-    p.contact#email a {color: rgba(27, 204, 109, 0.8) !important;}
-    p.contact#email:hover a {color: rgba(27, 204, 109, 0.8) !important;}
-    p.contact#email:visited a {color: rgb(133, 171, 60) !important;}
-    #footer h3 {font-size: 2em;}
+    p.contact#email a {color: rgba(98, 173, 255, 0.8) !important}
+    p.contact#email:hover a {color: white !important;}
+    p.contact#email:visited a {color: rgb(192, 198, 255) !important}
+    #footer h3 {font-size: 2em;    color: #1ad9dc !important;}
     #team_title{margin-top:70px;}
     #team_snippet{color:#383333;}
 		#customLogo{width: 82px;height: auto;margin-top: -28px;margin-bottom: -25px;}
-
+	hr{
+		background: #00c1f3 !important;
+	}
+	.btn-custom{
+		    background-color: rgb(25, 169, 163) !important;
+				font-weight:bold !important;
+	}
 		/*MOBILE*/
     @media (max-width:767px) {
       .intro h1 {font-size: 20vw;}
@@ -57,6 +63,11 @@
       #about p {font-size: 1.3em;}
       .thumbnail .caption p {font-size: 1.3em !important;}
     }
+		#footer .copyrights {
+    padding: 20px 0;
+    margin-top: 50px;
+    background: linear-gradient(to bottom, rgb(15, 175, 183) 0%, rgb(64, 117, 182) 50%);
+}
 	</style>
 
 </head>
@@ -73,7 +84,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand page-scroll" href="#page-top">
-					<img id="customLogo" src="img/logo_with_words_400.png" alt="Polar Society Records Logo" />
+					<img id="customLogo" src="img/logo_white.png" alt="Polar Society Records Logo" />
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
